@@ -61,7 +61,11 @@ Run the steps scripts
 
 ```
 ./relayer/step_1_hermes_setup.sh
+```
 
+On another terminal run these:
+
+```
 ./relayer/step_2_hermes_check_balances.sh
 
 ./relayer/step_3_hermes_transfer_tokens.sh
