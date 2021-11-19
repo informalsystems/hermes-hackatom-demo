@@ -1,0 +1,44 @@
+[global]
+log_level = 'debug'
+
+[rest]
+enabled = true
+host = '127.0.0.1'
+port = 4010
+
+[telemetry]
+enabled = true
+host = '127.0.0.1'
+port = 4011
+
+[[chains]]
+id = 'earth'
+rpc_addr = 'http://127.0.0.1:26659'
+grpc_addr = 'http://127.0.0.1:9095'
+websocket_addr = 'ws://localhost:26659/websocket'
+rpc_timeout = '10s'
+account_prefix = 'earth'
+key_name = 'tellurian'
+store_prefix = 'ibc'
+max_gas = 2000000
+gas_price = { price = 0.001, denom = 'stake' }
+gas_adjustment = 0.1
+clock_drift = '5s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+
+[[chains]]
+id = 'mars'
+rpc_addr = 'http://127.0.0.1:26559'
+grpc_addr = 'http://127.0.0.1:9096'
+websocket_addr = 'ws://localhost:26559/websocket'
+rpc_timeout = '10s'
+account_prefix = 'mars'
+key_name = 'greenman'
+store_prefix = 'ibc'
+max_gas = 2000000
+gas_price = { price = 0.001, denom = 'stake' }
+gas_adjustment = 0.1
+clock_drift = '5s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
