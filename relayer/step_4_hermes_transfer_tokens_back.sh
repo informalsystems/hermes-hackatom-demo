@@ -7,6 +7,5 @@ trap 'read -p "run: $BASH_COMMAND"' DEBUG
 #----------------------------------------------------
 
 # Fungible token transfer 
-echo "Transfer tokens from Earth to Mars"
-hermes -c ./relayer/config.toml tx raw ft-transfer mars earth transfer channel-0 100 --timeout-height-offset 10 --denom ecoin -n 1
-
+echo "Transfer tokens back from Mars to Earth"
+# [TODO]

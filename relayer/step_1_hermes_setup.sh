@@ -27,8 +27,8 @@ hermes -c ./config.toml keys list mars
 
 # Open Channel
 echo "Open Channel between Earth and Mars"
-hermes -c ./config.toml create channel earth mars --port-a transfer --port-b transfer
+hermes -c ./relayer/config.toml create channel earth mars --port-a transfer --port-b transfer
 
 # Start the Relayer
 echo "Start Relaying using Hermes"
-hermes -c ./config.toml start
+hermes -c ./relayer/config.toml start
