@@ -86,11 +86,11 @@ import (
 	"github.com/tendermint/spm/cosmoscmd"
 	"github.com/tendermint/spm/openapiconsole"
 
-	"github.com/informalsystems/hermes-ibc-workshop/mars/docs"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/docs"
 
-	marsmodule "github.com/informalsystems/hermes-ibc-workshop/mars/x/mars"
-	marsmodulekeeper "github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/keeper"
-	marsmoduletypes "github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	marsmodule "github.com/informalsystems/hermes-hackatom-demo/mars/x/mars"
+	marsmodulekeeper "github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/keeper"
+	marsmoduletypes "github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

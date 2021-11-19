@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/types"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/types"
 )
 
 // NewHandler ...

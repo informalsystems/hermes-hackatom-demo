@@ -3,6 +3,7 @@ package mars
 import (
 	"encoding/json"
 	"fmt"
+
 	// this line is used by starport scaffolding # 1
 
 	"github.com/gorilla/mux"
@@ -16,9 +17,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/client/cli"
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/client/cli"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 )
 
 var (

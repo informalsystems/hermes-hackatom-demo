@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 )
 
 type msgServer struct {

@@ -11,7 +11,7 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/informalsystems/hermes-ibc-workshop/mars/app"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/app"
 )
 
 // New creates application instance with in-memory database and disabled logging.

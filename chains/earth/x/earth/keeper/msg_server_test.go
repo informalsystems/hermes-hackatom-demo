@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	keepertest "github.com/informalsystems/hermes-ibc-workshop/earth/testutil/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/types"
+	keepertest "github.com/informalsystems/hermes-hackatom-demo/earth/testutil/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/types"
 )
 
 func setupMsgServer(t testing.TB) (types.MsgServer, context.Context) {

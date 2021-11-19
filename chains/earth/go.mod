@@ -1,4 +1,4 @@
-module github.com/informalsystems/hermes-ibc-workshop/earth
+module github.com/informalsystems/hermes-hackatom-demo/earth
 
 go 1.16
 

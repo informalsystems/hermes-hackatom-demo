@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 	"github.com/stretchr/testify/require"
 )
 

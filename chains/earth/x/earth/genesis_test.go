@@ -3,9 +3,9 @@ package earth_test
 import (
 	"testing"
 
-	keepertest "github.com/informalsystems/hermes-ibc-workshop/earth/testutil/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/types"
+	keepertest "github.com/informalsystems/hermes-hackatom-demo/earth/testutil/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/types"
 	"github.com/stretchr/testify/require"
 )
 

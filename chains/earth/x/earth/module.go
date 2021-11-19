@@ -3,6 +3,7 @@ package earth
 import (
 	"encoding/json"
 	"fmt"
+
 	// this line is used by starport scaffolding # 1
 
 	"github.com/gorilla/mux"
@@ -16,9 +17,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/client/cli"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/earth/x/earth/types"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/client/cli"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/earth/x/earth/types"
 )
 
 var (

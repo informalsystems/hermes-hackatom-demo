@@ -2,8 +2,8 @@ package mars
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/keeper"
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/keeper"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

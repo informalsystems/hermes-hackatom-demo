@@ -18,7 +18,7 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/informalsystems/hermes-ibc-workshop/mars/app"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/app"
 )
 
 type (

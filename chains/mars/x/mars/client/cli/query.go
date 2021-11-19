@@ -10,7 +10,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/informalsystems/hermes-ibc-workshop/mars/x/mars/types"
+	"github.com/informalsystems/hermes-hackatom-demo/mars/x/mars/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

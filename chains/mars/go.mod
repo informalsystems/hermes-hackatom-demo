@@ -1,4 +1,4 @@
-module github.com/informalsystems/hermes-ibc-workshop/mars
+module github.com/informalsystems/hermes-hackatom-demo/mars
 
 go 1.16
 
